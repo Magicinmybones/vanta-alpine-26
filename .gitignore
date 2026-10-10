@@ -1,0 +1,17 @@
+# Local tooling and temporary files
+node_modules/
+.wrangler/
+dist/
+.tmp/
+*.log
+
+# Secrets and machine-specific settings
+.env
+.env.*
+!.env.example
+.dev.vars*
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini

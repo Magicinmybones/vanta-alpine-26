@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>VANTA — Alpine 26</title>
+<meta name="description" content="VANTA ski goggles. Engineered for the unknown.">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<main class="stage" id="stage">
+  <div class="bg" aria-hidden="true"><img src="assets/alpine-hero.jpg" alt="" width="1546" height="1017" fetchpriority="high" decoding="sync"></div>
+  <div class="shade" aria-hidden="true"></div>
+  <div class="rule" aria-hidden="true"></div>
+
+  <!-- TL : logo -->
+  <div class="g g-tl">
+    <a class="logo" id="logo" href="#" aria-label="VANTA home">
+      <svg viewBox="64 44 132 27" width="132" height="27" aria-hidden="true">
+        <path fill="#FD5A02" d="M67.5 46.9H71.3L81.5 64.2 90.1 46.9H94.1L83.8 68.3H78.9Z"/>
+        <path fill="#FD5A02" fill-rule="evenodd" d="M101.6 46.9H105.7L117.6 68.3H113.6L110.6 62.9H96.9L94 68.3H89.9ZM103.65 51.9 108.9 59.8H98.6Z"/>
+        <path fill="#000" d="M119.6 46.9H123.8V68.3H119.6ZM139.9 46.9H144.1V68.3H139.9ZM119.6 46.9H124.2L144.1 68.3H138.7Z"/>
+        <path fill="#000" d="M146.4 46.9H169.8V50.7H159.8V68.3H155.9V50.7H146.4Z"/>
+        <path fill="#000" fill-rule="evenodd" d="M176.7 46.9H180.7L192.6 68.3H188.4L185.35 62.85H171.9L168.8 68.3H164.8ZM178.8 50.7 183.7 59.75H173.6Z"/>
+      </svg>
+    </a>
+  </div>
+
+  <!-- TC : primary navigation -->
+  <nav class="g g-tc" id="primary-nav" aria-label="Primary">
+    <div class="nav">
+      <a class="d" id="nav1" href="#collection">COLLECTION</a>
+      <span class="d" id="navsep" aria-hidden="true">/</span>
+      <a class="d" id="nav2" href="#world">OUR WORLD</a>
+    </div>
+  </nav>
+
+  <!-- TR : account / bag -->
+  <div class="g g-tr">
+    <a class="user" id="user" href="#account" aria-label="Account">
+      <svg viewBox="0 0 17 21" width="17" height="21" fill="none" stroke="#fff" stroke-width="1.5" aria-hidden="true"><circle cx="8.5" cy="4.6" r="3.8"/><rect x=".7" y="11.7" width="15.6" height="8.6" rx="4.3"/></svg>
+    </a>
+    <a class="d bag" id="bag" href="#bag">BAG</a>
+    <span class="badge" id="badge" aria-label="0 items in bag">0</span>
+    <button class="burger" id="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">
+      <svg viewBox="0 0 22 22" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><path class="b1" d="M2 5h18"/><path class="b2" d="M2 11h18"/><path class="b3" d="M2 17h18"/></svg>
+    </button>
+  </div>
+
+  <!-- ML : hero copy -->
+  <section class="g g-ml" aria-labelledby="h1">
+    <div class="dots" id="dots" role="tablist" aria-label="Slides"><span role="tab" aria-selected="true"></span><span role="tab"></span><span role="tab"></span></div>
+    <p class="d eyebrow" id="eyebrow">ENGINEERED FOR THE UNKNOWN</p>
+    <h1 class="h1" id="h1"><span class="l d" id="form">FORM.</span> <span class="l d" id="func">FUNCION.</span> <span class="l d vision" id="vision">VISION</span></h1>
+  </section>
+
+  <!-- MR : product tiles -->
+  <aside class="g g-mr" aria-label="Featured">
+    <article class="card-o" id="cardo">
+      <p class="d ed" id="lensed">01 / LENS EDITION</p>
+      <h2 class="d ga" id="ga"><span id="gold">GOLD</span> <span id="amber">AMBER</span></h2>
+      <p class="d wp" id="warmer">A warmer perspective</p>
+    </article>
+    <div class="alp" id="alpbox"><p class="d" id="alp"><span id="alpine">ALPINE</span> <span id="n26">26</span></p></div>
+    <a class="lens" id="lens" href="#next" aria-label="Next lens, 1 of 4">
+      <svg class="arrow" id="arrow" viewBox="0 0 15 15" width="15" height="15" fill="none" stroke="#fff" stroke-width="2.35" stroke-linecap="butt" aria-hidden="true"><path d="M.7 14.4 13.5 1.6M3.4 1.2H13.8V11.6"/></svg>
+      <span class="t count" id="n0104">01 / 04</span>
+      <svg class="ring" id="ring" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke-width="2.3" aria-hidden="true"><circle cx="12" cy="12" r="10.85" stroke="rgba(255,255,255,.62)"/><path d="M12 1.15A10.85 10.85 0 0 1 12 22.85" stroke="#FD5A02"/></svg>
+    </a>
+    <a class="card-c" id="cardc" href="#model-03">
+      <img class="gog" id="gog" src="assets/model-03-goggles.webp" alt="VANTA Model 03 goggles with amber mirrored lens" width="708" height="354">
+      <span class="d m3" id="model">MODEL 03</span>
+      <span class="t ef" id="explore">EXPLORE THE FRAME</span>
+    </a>
+  </aside>
+
+  <!-- BL : story card -->
+  <div class="g g-bl">
+    <article class="glass" id="glass">
+      <div class="thumb" id="thumb"><img src="assets/skier-thumbnail.jpg" alt="Skier carving fresh powder" width="420" height="420"></div>
+      <div class="copybox">
+        <h3 class="d alpiene" id="alpiene">ALPIENE COLLECTION</h3>
+        <p class="t copy" id="copy">Sculpted for the slopes. <br>VANTA ski goggles combine a <br>wide.&nbsp; <a href="#read">Read more</a></p>
+      </div>
+    </article>
+  </div>
+
+  <!-- BC : primary action -->
+  <div class="g g-bc">
+    <a class="cta" id="cta" href="#collection"><span class="d" id="btn">EXPLORE COLLECTION</span></a>
+  </div>
+
+  <!-- BR : social -->
+  <div class="g g-br">
+    <p class="d follow" id="follow">FOLLOW US</p>
+    <div class="socs">
+      <a class="soc on" id="sx" href="#x" aria-label="VANTA on X">
+        <svg viewBox="0 0 12 13" width="12.4" height="13.4" aria-hidden="true"><path fill="#fff" d="M0 0h3.9l2.6 3.85L9.6 0h1.95L7.42 5.15 12 13H8.1L5.37 8.92 2.05 13H.1l4.34-5.33Z M1.9.95l6.8 11.1h1.42L3.3.95Z" fill-rule="evenodd"/></svg>
+      </a>
+      <a class="soc" id="sf" href="#facebook" aria-label="VANTA on Facebook">
+        <svg viewBox="0 0 15 15" width="15" height="15" aria-hidden="true"><path fill="#fff" d="M7.5 0a7.5 7.5 0 0 0-1.17 14.91V9.67H4.43V7.5h1.9V5.85c0-1.88 1.12-2.92 2.83-2.92.82 0 1.68.15 1.68.15v1.85h-.95c-.93 0-1.22.58-1.22 1.17V7.5h2.08l-.33 2.17H8.67v5.24A7.5 7.5 0 0 0 7.5 0Z"/></svg>
+      </a>
+      <a class="soc" id="si" href="#instagram" aria-label="VANTA on Instagram">
+        <svg viewBox="0 0 15 15" width="15" height="15" fill="none" stroke="#fff" aria-hidden="true"><rect x=".8" y=".8" width="13.4" height="13.4" rx="2.6" stroke-width="1.35"/><circle cx="7.5" cy="7.5" r="2.95" stroke-width="1.3"/><circle cx="11.2" cy="3.8" r=".9" fill="#fff" stroke="none"/></svg>
+      </a>
+    </div>
+  </div>
+</main>
+<script src="assets/script.js"></script>
+</body>
+</html>
